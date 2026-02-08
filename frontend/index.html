@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Compliance Analyzer | AI-Powered Legal Check</title>
+  <meta name="description" content="AI-powered document compliance analyzer for employment contracts across multiple jurisdictions">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+  
+  <main class="container">
+    <header class="header">
+      <div class="logo">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="url(#grad1)" stroke-width="2"/>
+          <path d="M12 20L18 26L28 14" stroke="url(#grad1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#6366f1"/>
+              <stop offset="100%" style="stop-color:#8b5cf6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <h1>Compliance<span>AI</span></h1>
+      </div>
+      <p class="tagline">AI-Powered Employment Contract Compliance Analysis</p>
+    </header>
+
+    <section class="analyzer-card glass">
+      <div class="card-header">
+        <h2>📄 Analyze Document</h2>
+        <p>Upload an employment contract to check compliance with country regulations</p>
+      </div>
+
+      <form id="analyzeForm" class="analyzer-form">
+        <div class="form-group">
+          <label for="countrySelect">🌍 Select Country Regulations</label>
+          <select id="countrySelect" required>
+            <option value="">Choose a country...</option>
+          </select>
+          <div id="countryInfo" class="country-info hidden"></div>
+        </div>
+
+        <div class="form-group">
+          <label>📎 Upload Contract</label>
+          <div class="upload-zone" id="uploadZone">
+            <input type="file" id="fileInput" accept=".pdf,.docx,.txt" hidden>
+            <div class="upload-content">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path d="M24 32V16M24 16L18 22M24 16L30 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 32V36C8 38.2091 9.79086 40 12 40H36C38.2091 40 40 38.2091 40 36V32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <p>Drop your file here or <span class="browse-link">browse</span></p>
+              <span class="file-types">Supports PDF, DOCX, TXT (max 10MB)</span>
+            </div>
+          </div>
+          <div id="fileInfo" class="file-info hidden">
+            <span class="file-name"></span>
+            <button type="button" class="remove-file" id="removeFile">×</button>
+          </div>
+        </div>
+
+        <button type="submit" class="analyze-btn" id="analyzeBtn" disabled>
+          <span class="btn-text">🔍 Analyze Compliance</span>
+          <span class="btn-loading hidden">
+            <span class="spinner"></span>
+            Analyzing...
+          </span>
+        </button>
+      </form>
+    </section>
+
+    <section id="resultsSection" class="results-section hidden">
+      <div class="results-card glass">
+        <div class="results-header">
+          <h2>📊 Compliance Analysis Results</h2>
+          <div class="file-badge" id="analyzedFile"></div>
+        </div>
+
+        <div class="score-container">
+          <div class="score-circle" id="scoreCircle">
+            <svg viewBox="0 0 160 160">
+              <circle cx="80" cy="80" r="70" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="12"/>
+              <circle id="scoreRing" cx="80" cy="80" r="70" fill="none" stroke-width="12" stroke-linecap="round" 
+                      transform="rotate(-90 80 80)"/>
+            </svg>
+            <div class="score-value">
+              <span id="scoreNumber">0</span>
+              <span class="score-label">%</span>
+            </div>
+          </div>
+          <div class="score-details">
+            <div class="status-badge" id="overallStatus"></div>
+            <p id="summaryText"></p>
+          </div>
+        </div>
+
+        <div class="findings-container">
+          <h3>🔎 Detailed Findings</h3>
+          
+          <div class="findings-tabs">
+            <button class="tab-btn active" data-filter="all">All</button>
+            <button class="tab-btn" data-filter="NON_COMPLIANT">Issues</button>
+            <button class="tab-btn" data-filter="COMPLIANT">Compliant</button>
+            <button class="tab-btn" data-filter="NOT_ADDRESSED">Not Addressed</button>
+          </div>
+
+          <div id="findingsList" class="findings-list"></div>
+        </div>
+
+        <div class="results-footer">
+          <div class="highlights">
+            <div class="highlight-section critical">
+              <h4>⚠️ Critical Issues</h4>
+              <ul id="criticalIssues"></ul>
+            </div>
+            <div class="highlight-section positive">
+              <h4>✅ Positive Aspects</h4>
+              <ul id="positiveAspects"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="samples-section glass">
+      <h3>📁 Sample Contracts for Testing</h3>
+      <p>Download these pre-made contracts to test the compliance analyzer:</p>
+      <div id="samplesList" class="samples-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with AI for <strong>RemoFirst</strong> Assessment</p>
+    <p class="disclaimer">This is a demonstration tool. Results should not be used as legal advice.</p>
+  </footer>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
