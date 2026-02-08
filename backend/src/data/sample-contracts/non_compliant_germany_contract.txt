@@ -1,0 +1,74 @@
+ARBEITSVERTRAG (EMPLOYMENT CONTRACT)
+
+Between:
+GlobalTech GmbH, Friedrichstraße 123, 10117 Berlin, Germany ("Arbeitgeber/Employer")
+
+And:
+Maria Schmidt, residing at Hauptstraße 45, 10115 Berlin ("Arbeitnehmer/Employee")
+
+Effective Date: February 1, 2024
+
+§1 POSITION AND DUTIES
+Employee is employed as Product Manager. Duties include product strategy, roadmap management, and cross-functional team coordination.
+
+§2 TERM OF EMPLOYMENT
+This is a PERMANENT employment contract (unbefristeter Arbeitsvertrag).
+
+§3 PROBATIONARY PERIOD
+The first 6 months constitute a probationary period during which either party may terminate with 2 weeks notice.
+
+§4 COMPENSATION
+Gross monthly salary: €5,500 (sixty-six thousand euros annually)
+Payment: Monthly, by the last day of each month.
+Note: This exceeds the statutory minimum wage.
+
+§5 WORKING HOURS
+Regular working hours: 40 hours per week, Monday through Friday.
+Core hours: 10:00 AM to 4:00 PM with flexible start/end times.
+Overtime: All overtime must be pre-approved. Overtime up to 10 hours monthly is included in salary.
+
+§6 ANNUAL LEAVE
+*** VIOLATION: Employee is entitled to 10 working days of paid vacation per calendar year. ***
+[Note: This violates BUrlG which mandates minimum 20 days for 5-day week]
+
+§7 SICK LEAVE
+In case of illness, Employee must notify Employer immediately on the first day of absence.
+*** VIOLATION: Medical certificate required from DAY 1 of illness. ***
+Employee receives continued salary payment for first 6 weeks as per law.
+
+§8 TERMINATION
+*** VIOLATION: Notice period is 2 weeks regardless of length of service. ***
+[Note: This violates §622 BGB which requires 4 weeks minimum and longer periods for senior employees]
+
+Termination for cause (außerordentliche Kündigung) may be immediate with valid reason.
+
+§9 NON-COMPETE CLAUSE
+For 24 months following termination, Employee shall not work for any competitor in the technology industry worldwide.
+*** VIOLATION: No compensation specified for non-compete period. ***
+[Note: German law requires at least 50% salary compensation during non-compete period]
+
+§10 CONFIDENTIALITY
+Employee agrees to maintain strict confidentiality of all business information during and after employment.
+
+§11 INTELLECTUAL PROPERTY
+All inventions and work product created during employment belong to Employer per German Employee Invention Act.
+
+§12 DATA PROTECTION
+Employee consents to necessary processing of personal data for employment purposes in accordance with GDPR and BDSG.
+
+§13 WORKS COUNCIL
+Employee acknowledges the right to participate in works council elections and activities per Betriebsverfassungsgesetz.
+
+§14 APPLICABLE LAW
+This contract is governed by German law. Employment disputes shall be resolved before German Labor Courts (Arbeitsgerichte).
+
+§15 SEVERABILITY
+If any provision is found invalid, remaining provisions continue in full force.
+
+
+Berlin, January 25, 2024
+
+
+___________________________          ___________________________
+GlobalTech GmbH                      Maria Schmidt
+Geschäftsführung/Management          Arbeitnehmer/Employee

@@ -1,0 +1,73 @@
+{
+    "code": "GERMANY",
+    "name": "Federal Republic of Germany",
+    "description": "German employment law provides strong worker protections through statutory requirements and collective agreements",
+    "keyFeatures": [
+        "Strong termination protection (Kündigungsschutz)",
+        "Statutory minimum vacation",
+        "Works council requirements",
+        "Collective bargaining agreements"
+    ],
+    "regulations": {
+        "employmentType": {
+            "category": "Employment Relationship",
+            "rule": "Employment contracts should be in writing. Fixed-term contracts are limited to 2 years maximum without objective justification.",
+            "exceptions": "Fixed-term contracts can exceed 2 years with objective reasons (project work, replacement)."
+        },
+        "minimumWage": {
+            "category": "Compensation",
+            "rule": "Statutory minimum wage is €12.41 per hour (as of 2024). Must be clearly stated in employment contract.",
+            "exceptions": "Collective agreements may set different rates. Internships and certain training positions may be exempt."
+        },
+        "vacation": {
+            "category": "Leave Benefits",
+            "rule": "Minimum 20 working days paid annual leave for 5-day work week (Bundesurlaubsgesetz). Most employers provide 25-30 days.",
+            "exceptions": "Collective agreements often provide more. Unused vacation generally cannot be forfeited."
+        },
+        "workingHours": {
+            "category": "Working Hours",
+            "rule": "Maximum 8 hours per day, up to 48 hours per week (Arbeitszeitgesetz). Can extend to 10 hours if average stays at 8 over 6 months.",
+            "exceptions": "On-call arrangements and certain sectors have specific rules. Minimum 11 hours rest between shifts."
+        },
+        "overtime": {
+            "category": "Working Hours",
+            "rule": "Overtime compensation must be specified in contract - either paid or compensated with time off.",
+            "exceptions": "Senior executives (leitende Angestellte) may have different arrangements."
+        },
+        "terminationNotice": {
+            "category": "Termination",
+            "rule": "Statutory notice periods based on tenure: 4 weeks basic, increasing to 7 months after 20 years (§622 BGB).",
+            "exceptions": "Probation period (max 6 months) allows 2-week notice. Termination for cause (wichtiger Grund) allows immediate termination."
+        },
+        "terminationProtection": {
+            "category": "Termination",
+            "rule": "Kündigungsschutzgesetz applies to employers with 10+ employees. Termination requires valid reason (operational, personal, or conduct-related).",
+            "exceptions": "Probation period employees and small businesses exempt. Works council must be consulted before termination."
+        },
+        "sickLeave": {
+            "category": "Leave Benefits",
+            "rule": "Employer pays 100% salary for first 6 weeks of illness (Entgeltfortzahlung). Health insurance covers 70% of salary after.",
+            "exceptions": "Doctor's certificate (Arbeitsunfähigkeitsbescheinigung) required from day 1 or 4 based on company policy."
+        },
+        "parentalLeave": {
+            "category": "Leave Benefits",
+            "rule": "Each parent entitled to up to 3 years parental leave (Elternzeit) per child, with job protection.",
+            "exceptions": "Can be taken flexibly until child is 8 years old. Parental allowance (Elterngeld) provides partial income replacement."
+        },
+        "worksCouncil": {
+            "category": "Worker Representation",
+            "rule": "Employees have right to form works council (Betriebsrat) in companies with 5+ employees. Must be informed on key decisions.",
+            "exceptions": "Management-level employees (leitende Angestellte) have their own representation (Sprecherausschuss)."
+        },
+        "dataPrivacy": {
+            "category": "Employee Privacy",
+            "rule": "GDPR and BDSG apply. Employee consent for data processing required for non-essential matters. Data minimization principle applies.",
+            "exceptions": "Data processing for employment relationship performance does not require consent."
+        },
+        "nonCompete": {
+            "category": "Post-Employment",
+            "rule": "Non-compete clauses require compensation of at least 50% of last salary during restriction period. Maximum 2 years duration.",
+            "exceptions": "Employer can waive non-compete with 1 year notice. Void if employee was terminated for employer's cause."
+        }
+    }
+}

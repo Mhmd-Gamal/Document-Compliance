@@ -1,0 +1,78 @@
+{
+    "code": "UK",
+    "name": "United Kingdom",
+    "description": "UK employment law balances employee protections with business flexibility through statutory rights and common law",
+    "keyFeatures": [
+        "Statutory holiday entitlement",
+        "National Minimum Wage tiers",
+        "Unfair dismissal protections",
+        "Working Time Regulations"
+    ],
+    "regulations": {
+        "employmentType": {
+            "category": "Employment Relationship",
+            "rule": "Written statement of employment particulars must be provided from day one of employment.",
+            "exceptions": "Contract terms can be varied by mutual agreement. Zero-hours contracts permitted but with restrictions."
+        },
+        "minimumWage": {
+            "category": "Compensation",
+            "rule": "National Living Wage: £11.44/hour (23+), National Minimum Wage tiers by age. Must be clearly stated.",
+            "exceptions": "Apprentices have lower rate (£6.40). Self-employed not covered."
+        },
+        "holiday": {
+            "category": "Leave Benefits",
+            "rule": "Statutory minimum 5.6 weeks (28 days for full-time) paid annual leave including bank holidays.",
+            "exceptions": "Employer can require bank holidays to be taken from entitlement. Part-time workers pro-rated."
+        },
+        "workingHours": {
+            "category": "Working Hours",
+            "rule": "Maximum 48 hours average per week under Working Time Regulations. Minimum 11 hours rest per day.",
+            "exceptions": "Workers can opt-out of 48-hour limit in writing. Night workers limited to 8 hours average."
+        },
+        "overtime": {
+            "category": "Working Hours",
+            "rule": "No statutory right to overtime pay. Terms depend on employment contract.",
+            "exceptions": "Total pay averaged over period must meet minimum wage requirements."
+        },
+        "terminationNotice": {
+            "category": "Termination",
+            "rule": "Statutory minimum: 1 week after 1 month service, then 1 week per year of service up to 12 weeks maximum.",
+            "exceptions": "Contracts can specify longer periods. Summary dismissal permitted for gross misconduct."
+        },
+        "unfairDismissal": {
+            "category": "Termination",
+            "rule": "Employees with 2+ years service protected from unfair dismissal. Must follow fair procedure.",
+            "exceptions": "Automatically unfair reasons (pregnancy, whistleblowing) protected from day one. ACAS code must be followed."
+        },
+        "redundancyPay": {
+            "category": "Termination",
+            "rule": "Statutory redundancy pay after 2 years: 0.5-1.5 weeks' pay per year of service (max £700/week, 20 years).",
+            "exceptions": "Enhanced redundancy may be offered contractually. Consultation required for 20+ redundancies."
+        },
+        "sickPay": {
+            "category": "Leave Benefits",
+            "rule": "Statutory Sick Pay (SSP) of £116.75/week for up to 28 weeks. Payable from 4th day of illness.",
+            "exceptions": "Many employers provide enhanced sick pay. Self-certification for first 7 days, then fit note required."
+        },
+        "maternityPaternity": {
+            "category": "Leave Benefits",
+            "rule": "52 weeks maternity leave (39 weeks paid via SMP). 2 weeks paternity leave. Shared parental leave available.",
+            "exceptions": "Qualifying conditions apply (26 weeks service). Enhanced pay common but not required."
+        },
+        "discrimination": {
+            "category": "Equal Employment",
+            "rule": "Equality Act 2010 protects against discrimination on 9 protected characteristics from recruitment onwards.",
+            "exceptions": "Occupational requirements may justify differential treatment in limited cases."
+        },
+        "dataPrivacy": {
+            "category": "Employee Privacy",
+            "rule": "UK GDPR applies. Privacy notice required. Lawful basis needed for processing employee data.",
+            "exceptions": "Special category data (health, trade union) requires additional safeguards."
+        },
+        "nonCompete": {
+            "category": "Post-Employment",
+            "rule": "Restrictive covenants enforceable only if reasonable to protect legitimate business interests. Must be proportionate.",
+            "exceptions": "Garden leave may be used. Courts can strike out unreasonable restrictions."
+        }
+    }
+}

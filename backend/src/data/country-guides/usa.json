@@ -1,0 +1,63 @@
+{
+    "code": "USA",
+    "name": "United States of America",
+    "description": "US employment law follows the at-will doctrine with federal and state regulations",
+    "keyFeatures": [
+        "At-will employment",
+        "Federal minimum wage standards",
+        "FLSA overtime requirements",
+        "Anti-discrimination protections"
+    ],
+    "regulations": {
+        "employmentType": {
+            "category": "Employment Relationship",
+            "rule": "At-will employment is the default. Either party may terminate employment at any time for any lawful reason without notice.",
+            "exceptions": "Contracts may establish fixed terms. Some states have additional protections."
+        },
+        "minimumWage": {
+            "category": "Compensation",
+            "rule": "Federal minimum wage is $7.25 per hour under the Fair Labor Standards Act (FLSA).",
+            "exceptions": "States and cities may set higher minimum wages. Tipped employees have a lower base rate of $2.13/hour with tip credit."
+        },
+        "overtime": {
+            "category": "Working Hours",
+            "rule": "Non-exempt employees must receive 1.5x regular pay rate for hours worked over 40 per workweek.",
+            "exceptions": "Exempt employees (executive, administrative, professional, outside sales) are not entitled to overtime."
+        },
+        "paidTimeOff": {
+            "category": "Leave Benefits",
+            "rule": "No federal requirement for paid vacation, sick leave, or holidays for private employers.",
+            "exceptions": "Some states (California, New York) mandate paid sick leave. FMLA provides 12 weeks unpaid leave for qualifying reasons."
+        },
+        "workingHours": {
+            "category": "Working Hours",
+            "rule": "No federal limit on hours worked per week for employees 16 years and older.",
+            "exceptions": "Certain industries (transportation, healthcare) have specific rest requirements."
+        },
+        "terminationNotice": {
+            "category": "Termination",
+            "rule": "No federal requirement for advance notice of termination for individual employees.",
+            "exceptions": "WARN Act requires 60 days notice for mass layoffs of 100+ employees. Contracts may specify notice periods."
+        },
+        "antiDiscrimination": {
+            "category": "Equal Employment",
+            "rule": "Title VII prohibits discrimination based on race, color, religion, sex, and national origin. ADA protects disability. ADEA protects age 40+.",
+            "exceptions": "Applies to employers with 15+ employees (20+ for ADEA)."
+        },
+        "nonCompete": {
+            "category": "Post-Employment",
+            "rule": "Non-compete agreements are generally enforceable if reasonable in scope, duration, and geography.",
+            "exceptions": "California bans most non-compete agreements. FTC has proposed nationwide restrictions."
+        },
+        "benefits": {
+            "category": "Benefits",
+            "rule": "Employers with 50+ FTEs must offer affordable health insurance or face penalties under the ACA.",
+            "exceptions": "Small employers are exempt. COBRA continuation applies to employers with 20+ employees."
+        },
+        "dataPrivacy": {
+            "category": "Employee Privacy",
+            "rule": "No comprehensive federal employee data privacy law. Employers must safeguard sensitive personal information.",
+            "exceptions": "CCPA/CPRA in California provides employee data rights. HIPAA applies to health information."
+        }
+    }
+}

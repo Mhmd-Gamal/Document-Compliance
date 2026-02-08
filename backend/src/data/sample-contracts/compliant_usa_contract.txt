@@ -1,0 +1,51 @@
+EMPLOYMENT AGREEMENT
+
+This Employment Agreement ("Agreement") is entered into as of January 15, 2024, by and between TechCorp Solutions Inc., a Delaware corporation ("Employer"), and John Smith ("Employee").
+
+1. POSITION AND DUTIES
+Employee is hired as a Senior Software Engineer. Employee will report to the Engineering Director and perform duties as reasonably assigned.
+
+2. AT-WILL EMPLOYMENT
+This employment is "at-will." Either party may terminate employment at any time, with or without cause or notice, subject to applicable law.
+
+3. COMPENSATION
+Base Salary: $125,000 per year, paid bi-weekly.
+This rate exceeds the federal minimum wage of $7.25/hour and all applicable state requirements.
+
+4. WORK SCHEDULE
+Employee's regular work schedule is Monday through Friday, 9:00 AM to 5:00 PM (40 hours per week).
+
+5. OVERTIME
+Employee is classified as exempt under the Fair Labor Standards Act due to the professional nature of duties and salary level. No overtime compensation applies.
+
+6. BENEFITS
+- Health Insurance: Employer provides comprehensive health, dental, and vision coverage meeting ACA requirements.
+- 401(k): Employer matches 4% of salary after 90 days.
+- Paid Time Off: 15 days per year, plus federal holidays.
+- Sick Leave: 5 days per year.
+
+7. TERMINATION
+Either party may terminate this Agreement at any time. Upon termination, Employee will receive all earned wages through the last day worked.
+
+8. CONFIDENTIALITY
+Employee agrees to maintain confidentiality of proprietary information during and after employment.
+
+9. NON-COMPETE
+For 12 months following termination, Employee shall not work for a direct competitor within 50 miles of Employer's office. This restriction is geographically and temporally reasonable.
+
+10. ANTI-DISCRIMINATION COMPLIANCE
+Employer is an equal opportunity employer. Employer does not discriminate based on race, color, religion, sex, national origin, age, disability, or any other protected characteristic under Title VII, ADA, ADEA, or applicable state laws.
+
+11. DISPUTE RESOLUTION
+Any disputes arising from this Agreement shall be resolved through binding arbitration in accordance with Delaware law.
+
+12. ENTIRE AGREEMENT
+This Agreement constitutes the entire understanding between the parties and supersedes all prior agreements.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+___________________________          ___________________________
+TechCorp Solutions Inc.              John Smith
+By: Jane Doe, HR Director            Employee
+
+Date: January 15, 2024               Date: January 15, 2024
